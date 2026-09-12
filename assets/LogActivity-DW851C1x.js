@@ -1,0 +1,1 @@
+import{t as e}from"./index-BcII_C-j.js";async function t(t,n,r,i){let{error:a}=await e.from(`activity_log`).insert([{action:t,content_type:n,label_en:r||null,label_ar:i||null}]);a&&console.error(`Failed to log activity:`,a.message)}export{t};
