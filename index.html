@@ -1,19 +1,41 @@
 <!doctype html>
 <html lang="en" style="scroll-behavior: smooth">
+  <head>
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.1/aos.css"
+      rel="stylesheet"
+    />
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/attoor-website/favicon.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>attoor-project</title>
+    <script type="text/javascript">
+      // Single-Page Apps for GitHub Pages
+      // This runs on the real index.html after the 404.html redirect fires,
+      // and restores the original URL so React Router sees the correct path.
+      (function (l) {
+        if (l.search[1] === "/") {
+          var decoded = l.search
+            .slice(1)
+            .split("&")
+            .map(function (s) {
+              return s.replace(/~and~/g, "&");
+            })
+            .join("?");
+          window.history.replaceState(
+            null,
+            null,
+            l.pathname.slice(0, -1) + decoded + l.hash,
+          );
+        }
+      })(window.location);
+    </script>
+    <script type="module" crossorigin src="/attoor-website/assets/index-BcII_C-j.js"></script>
+    <link rel="stylesheet" crossorigin href="/attoor-website/assets/index-f1UnF5eE.css">
+  </head>
 
-<head>
-  <link href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.1/aos.css" rel="stylesheet" />
-  <meta charset="UTF-8" />
-  <link rel="icon" type="image/svg+xml" href="/attoor-website/favicon.svg" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>attoor-project</title>
-  <script type="module" crossorigin src="/attoor-website/assets/index-BcII_C-j.js"></script>
-  <link rel="stylesheet" crossorigin href="/attoor-website/assets/index-f1UnF5eE.css">
-</head>
-
-<body>
-  <div id="root"></div>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.1/aos.js"></script>
-</body>
-
+  <body>
+    <div id="root"></div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.1/aos.js"></script>
+  </body>
 </html>
